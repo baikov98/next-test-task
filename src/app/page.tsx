@@ -12,7 +12,7 @@ async function getCountries() {
     const data: Country[] = await response.json();
     return data;
   } catch (error) {
-    console.log("Error while fetching countries");
+    console.log("Error while fetching countries", error);
   }
 }
 
