@@ -33,7 +33,8 @@ function TableRow({
               className={styles.logo}
               src={flag_url}
               alt={`${name_ru} флаг`}
-              fill
+              width={22}
+              height={15}
             />
           </div>
         )}
